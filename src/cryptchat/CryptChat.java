@@ -5,8 +5,6 @@
  */
 package cryptchat;
 
-
-
 /**
  *
  * @author Mike
