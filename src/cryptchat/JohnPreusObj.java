@@ -11,7 +11,7 @@ package cryptchat;
  */
 public class JohnPreusObj {
     private int numberOfSmokes = 1000;
-    
+    private final int kondiTal = 1;
     
     
     public JohnPreusObj(int numberOfSmokes)
