@@ -11,4 +11,21 @@ package cryptchat;
  */
 public class JohnPreusObj {
     private int numberOfSmokes = 1000;
+    
+    
+    
+    public JohnPreusObj(int numberOfSmokes)
+    {
+        this.setNumberOfSmokes(numberOfSmokes);
+    }
+    
+    public int getNumberOfSmokes()
+    {
+        return this.numberOfSmokes;
+    }
+    
+    private void setNumberOfSmokes(int newNumberOfSmokes)
+    {
+        this.numberOfSmokes = newNumberOfSmokes;
+    }
 }

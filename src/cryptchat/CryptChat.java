@@ -5,6 +5,8 @@
  */
 package cryptchat;
 
+
+
 /**
  *
  * @author Mike
@@ -17,6 +19,7 @@ public class CryptChat {
     public static void main(String[] args) {
         theMethod();
         theSecondMethod();
+        createAJohn();
     }
     
     public static void theMethod(){
@@ -26,6 +29,13 @@ public class CryptChat {
     public static void theSecondMethod()
     {
         System.out.println("Oh, they really rock hard!");
+    }
+    
+    public static void createAJohn()
+    {
+        JohnPreusObj john = new JohnPreusObj(5000);
+        System.out.print(john.getNumberOfSmokes());
+        System.out.println(" smokes a day!");
     }
     
 }
