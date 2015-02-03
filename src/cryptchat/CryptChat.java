@@ -16,10 +16,16 @@ public class CryptChat {
      */
     public static void main(String[] args) {
         theMethod();
+        theSecondMethod();
     }
     
     public static void theMethod(){
         System.out.println("Mike, Heini and Chris rocks!!!!!!");
+    }
+    
+    public static void theSecondMethod()
+    {
+        System.out.println("Oh, they really rock hard!");
     }
     
 }
