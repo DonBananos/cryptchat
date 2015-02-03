@@ -10,5 +10,5 @@ package cryptchat;
  * @author HM
  */
 public class JohnPreusObj {
-    
+    private int numberOfSmokes = 1000;
 }
