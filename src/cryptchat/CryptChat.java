@@ -15,7 +15,11 @@ public class CryptChat {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        theMethod();
+    }
+    
+    public static void theMethod(){
+        System.out.println("Mike, Heini and Chris rocks!!!!!!");
     }
     
 }
