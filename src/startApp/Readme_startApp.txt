@@ -1,0 +1,1 @@
+This package should contain only a class to run the application.
